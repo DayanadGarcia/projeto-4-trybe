@@ -13,12 +13,17 @@ function criaItem() {
 }
 
 function riscaTarefa(event) {
+  var acionado = document.querySelector('.completed');
+
   event.target.classList.add('completed');
+
+  if (acionado) {
+    event.target.classList.remove('completed');
+  }
 }
 
 function selecionado(event) {
   let selected = document.querySelectorAll('.selected');//cria var para selecionar
-
   for (let index = 0; index < selected.length; index++) {
     selected[index].classList.remove('selected');//remove todos os itens selecionados
   }
