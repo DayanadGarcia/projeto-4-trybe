@@ -29,4 +29,7 @@ body{
   border: rgb(168, 100, 12) solid 1px;
   border-radius: 5px;
 }
+#lista-tarefas{
+  line-height: 20px;
+}
 
