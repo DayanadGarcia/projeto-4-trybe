@@ -7,10 +7,20 @@ function criaItem() {
   list.appendChild(itemLista);//li filho de ol aqui
   itemLista.innerText = digita.value;// pega o texto do input
   digita.value = '';//apaga os valores do input
+  itemLista.addEventListener('click', addBackground);
+  itemLista.addEventListener('dblclick', riscaTarefa);
 }
-function addBackground() {
-  itemLista.style.backgroundColor = 'rgb(128, 128, 128)';
+
+function addBackground(event) {
+ event.target.style.backgroundColor = 'rgb(128, 128, 128)';
+}
+
+function riscaTarefa(event) {
+  event.target.style.textDecoration = 'line-through';
+}
+
+function selecionado() {
+
 }
 
 btn.addEventListener('click', criaItem);
-itemLista.addEventListener('click', addBackground);
