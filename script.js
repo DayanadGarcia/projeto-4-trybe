@@ -9,7 +9,6 @@ function criaItem() {
   digita.value = '';//apaga os valores do input
 }
 function addBackground() {
-  //itemLista.style.background = 'rgb(128, 128, 128)';
   itemLista.style.backgroundColor = 'rgb(128, 128, 128)';
 }
 
