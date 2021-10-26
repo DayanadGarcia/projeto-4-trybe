@@ -37,5 +37,11 @@ body{
 }
 .completed{
   text-decoration: line-through solid rgb(0, 0, 0);
-
+}
+#apaga-tudo{
+  width: 100px;
+  height: 30px;
+  background-image: linear-gradient(to bottom, #ddab97, #bb6c47);
+  border: rgb(104, 39, 9) solid 1px;
+  border-radius: 5px;
 }
