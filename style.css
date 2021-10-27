@@ -23,10 +23,12 @@ body{
   line-height: 15px;
 }
 #criar-tarefa{
-  width: 100px;
-  height: 30px;
-  background-image: linear-gradient(to bottom, #e4ae70, #ca7608);
-  border: rgb(168, 100, 12) solid 1px;
+  width: 110px;
+  height: 50px;
+  font-size: 13px;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #c1c7be, #7cb611);
+  border: rgb(52, 122, 37) solid 1px;
   border-radius: 5px;
 }
 #lista-tarefas{
@@ -39,12 +41,29 @@ body{
   text-decoration: line-through solid rgb(0, 0, 0);
 }
 #apaga-tudo{
-  width: 100px;
-  height: 30px;
-  background-image: linear-gradient(to bottom, #ddab97, #bb6c47);
-  border: rgb(104, 39, 9) solid 1px;
+  width: 110px;
+  height: 50px;
+  font-size: 13px;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #bbabab, #b60a04);
+  border: rgb(160, 26, 16) solid 1px;
   border-radius: 5px;
 }
 li{
-  font-family: cursive;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#remover-finalizados{
+  height: 50px;
+  font-size: 13px;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #838bb3, #131188);
+  border: rgb(29, 36, 128) solid 1px;
+  border-radius: 5px;
+}
+#texto-tarefa{
+  font-size: 18px;
+  height: 30px;
+  width: 300px;
 }
