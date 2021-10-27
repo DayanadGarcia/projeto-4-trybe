@@ -45,3 +45,6 @@ body{
   border: rgb(104, 39, 9) solid 1px;
   border-radius: 5px;
 }
+li{
+  font-family: cursive;
+}
