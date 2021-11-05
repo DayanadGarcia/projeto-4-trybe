@@ -3,8 +3,6 @@ const btnCriar = document.getElementById('criar-tarefa'); // botão add aqui
 const list = document.getElementById('lista-tarefas'); // ol aqui
 const btnApgTudo = document.getElementById('apaga-tudo'); // botao de apagar tudo aqui
 const btnApgFinalizados = document.getElementById('remover-finalizados'); // botao de apagar finalizados
-const btnSalva = document.getElementById('salvar-tarefas'); // botao de apagar finalizados
-
 function riscaTarefa(event) { // ----------funcao RiscaTarefa----------
   if (event.target.classList.contains('completed')) { // compara se contem a class completed
     event.target.classList.remove('completed'); // remove a class completed
